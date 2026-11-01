@@ -1,0 +1,8 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="400" fill="#9b59b6"/>
+  <circle cx="300" cy="200" r="120" fill="#2c3e50"/>
+  <circle cx="300" cy="200" r="90" fill="#3498db"/>
+  <circle cx="300" cy="200" r="60" fill="#ecf0f1"/>
+  <path d="M 300 140 L 320 180 L 360 180 L 330 205 L 345 245 L 300 220 L 255 245 L 270 205 L 240 180 L 280 180 Z" fill="#f39c12"/>
+  <text x="300" y="380" font-family="Arial, sans-serif" font-size="24" fill="#ecf0f1" text-anchor="middle">Project 2</text>
+</svg>

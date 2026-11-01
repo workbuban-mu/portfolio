@@ -1,0 +1,17 @@
+Project1=E-Commerce Platform
+Details1=A full-featured online shopping platform with product catalog, shopping cart, and secure checkout. Built with modern web technologies and responsive design principles.
+Highlight1=HTML;CSS;JavaScript;Node.js
+demo1=demoLink
+code1=sourceLink
+
+Project2=Task Management App
+Details2=An intuitive task management application that helps users organize their daily activities. Features include drag-and-drop functionality, priority levels, and deadline tracking.
+Highlight2=React;TypeScript;CSS Grid;Local Storage
+demo2=demoLink
+code2=sourceLink
+
+Project3=Weather Dashboard
+Details3=A real-time weather application that displays current conditions and forecasts for multiple locations. Integrates with weather APIs and features interactive charts.
+Highlight3=JavaScript;API Integration;Chart.js;Responsive Design
+demo3=demoLink
+code3=sourceLink

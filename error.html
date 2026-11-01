@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Page not found - Error 404">
+    <title>Page Not Found | Portfolio</title>
+    <link rel="stylesheet" href="css/normalize.css?v=2">
+    <link rel="stylesheet" href="css/main.css?v=2">
+    <link rel="stylesheet" href="css/responsive.css?v=2">
+    <style>
+        .error-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: calc(100vh - 200px);
+            text-align: center;
+            padding: var(--spacing-xl) var(--spacing-lg);
+        }
+        
+        .error-code {
+            font-size: 8rem;
+            font-weight: bold;
+            color: var(--secondary-color);
+            margin: 0;
+            line-height: 1;
+        }
+        
+        .error-title {
+            font-family: var(--font-heading);
+            font-size: 2rem;
+            color: var(--primary-color);
+            margin: var(--spacing-md) 0;
+        }
+        
+        .error-message {
+            font-size: 1.1rem;
+            color: var(--text-color);
+            margin: 0 0 var(--spacing-xl) 0;
+            max-width: 600px;
+        }
+        
+        .error-links {
+            display: flex;
+            gap: var(--spacing-md);
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        .error-link {
+            display: inline-block;
+            padding: var(--spacing-sm) var(--spacing-lg);
+            background-color: var(--secondary-color);
+            color: var(--bg-color);
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+        
+        .error-link:hover {
+            background-color: var(--accent-color);
+            transform: translateY(-2px);
+        }
+        
+        .error-link.secondary {
+            background-color: var(--light-gray);
+            color: var(--primary-color);
+        }
+        
+        .error-link.secondary:hover {
+            background-color: var(--primary-color);
+            color: var(--bg-color);
+        }
+    </style>
+</head>
+<body>
+    <nav class="main-nav">
+        <div class="nav-brand">Portfolio</div>
+        <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+        <ul class="nav-menu">
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="about.html" class="nav-link">About</a></li>
+            <li><a href="experience.html" class="nav-link">Experience</a></li>
+            <li><a href="projects.html" class="nav-link">Projects</a></li>
+            <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <div class="error-container">
+            <h1 class="error-code">404</h1>
+            <h2 class="error-title">Page Not Found</h2>
+            <p class="error-message">
+                Oops! The page you're looking for doesn't exist. It might have been moved or deleted.
+            </p>
+            <div class="error-links">
+                <a href="index.html" class="error-link">Go to Homepage</a>
+                <a href="contact.html" class="error-link secondary">Contact Me</a>
+            </div>
+        </div>
+    </main>
+    
+    <footer class="main-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <p class="copyright">&copy; 2024 Your Name. All rights reserved.</p>
+            </div>
+            
+            <nav class="footer-nav">
+                <h3 class="footer-heading">Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="experience.html">Experience</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <div class="footer-social">
+                <h3 class="footer-heading">Connect</h3>
+                <div class="footer-social-links">
+                    <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <img src="assets/icons/linkedin.svg" alt="LinkedIn" class="footer-social-icon">
+                    </a>
+                    <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <img src="assets/icons/github.svg" alt="GitHub" class="footer-social-icon">
+                    </a>
+                    <a href="https://facebook.com/bubanned" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                        <img src="assets/icons/facebook.svg" alt="Facebook" class="footer-social-icon">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="js/navigation.js"></script>
+    <script src="js/navigation-config.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
